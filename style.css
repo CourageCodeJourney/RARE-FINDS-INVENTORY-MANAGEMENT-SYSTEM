@@ -67,9 +67,10 @@ p {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    margin: 0 10px;
+    margin: -150px 300px 0; /* Move the button up */
     transition: background-color 0.3s ease;
 }
+
 
 .button:hover {
     background-color: #ff3399;
@@ -82,14 +83,15 @@ p {
 
 .content-image {
     display: block;
-    margin: 0 20px 0 auto; /* Adjusted margin */
+    margin: -30px 20px 0 auto; /* Adjusted margin */
     max-width: 270px; /* Adjusted max-width */
     height: auto;
 }
+
 .description {
     text-align: left; /* Align the text to the left */
     max-width: 600px; /* Set maximum width for the text */
-    margin: 0 auto 20px; /* Center the text horizontally and add bottom margin */
+    margin: -100px auto 20px; /* Center the text horizontally, add bottom margin, and move the text up */
     line-height: 1.5; /* Set line height for readability */
 }
 
