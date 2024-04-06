@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Item - Inventory Management System</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ADD NEW ITEM</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" style="margin-left: 900px;">HOME </a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">CONTACTS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="container">
+            <form action="#" method="post" class="add-item-form">
+                <label for="item-name">Item Name:</label><br>
+                <input type="text" id="item-name" name="item-name"><br>
+                
+                <label for="item-description">Description:</label><br>
+                <textarea id="item-description" name="item-description" rows="4"></textarea><br>
+                
+                <label for="item-quantity">Quantity:</label><br>
+                <input type="number" id="item-quantity" name="item-quantity" min="1"><br>
+                
+                <label for="item-price">Price in Naira:</label><br>
+                <input type="number" id="item-price" name="item-price" min="0" step="0.01"><br>
+
+                <label for="item-image">Item Image:</label><br>
+                <input type="file" id="item-image" name="item-image" accept="image/*"><br>
+                
+                <button type="submit" class="button">Add Item</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
