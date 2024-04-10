@@ -83,8 +83,8 @@ p {
 
 .content-image {
     display: block;
-    margin: -30px 20px 0 auto; /* Adjusted margin */
-    max-width: 270px; /* Adjusted max-width */
+    margin: -30px 50px 0 auto; /* Adjusted margin */
+    max-width: 330px; /* Adjusted max-width */
     height: auto;
 }
 
